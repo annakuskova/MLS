@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/layout/fonts/static/Inter-Regular.ttf") format("ttf");
+}
+
+.table-wrapper {
+  margin-bottom: 120px;
+}
+
+.table-wrapper table thead th .text {
+  width: 35%;
+  position: absolute;
+}
+
+table {
+  width: fill-available;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 6px;
+  margin: 15px 50px 0 50px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  font-weight: 400;
+  padding: 5px 34px 5px 34px;
+  font-size: 22px;
+  color: #ffff;
+  background: #4669e5;
+  width: auto;
+}
+
+td {
+  border: 1px solid #d9d9d9;
+}
+
+tr {
+  height: 50px;
+  margin: 10px;
+}
+
+.not-tracked {
+  background: hsla(0, 0%, 90%, 1);
+}

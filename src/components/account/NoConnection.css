@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/layout/fonts/static/Inter-Regular.ttf") format("ttf");
+}
+
+.connection-text {
+  padding-left: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+}
+
+.connection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 45%;
+  position:absolute;
+}

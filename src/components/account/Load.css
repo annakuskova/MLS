@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/layout/fonts/static/Inter-Regular.ttf") format("ttf");
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 46.39%;
+  right: 46.39%;
+  top: 45.12%;
+  bottom: 45.14%;
+  flex-direction: column;
+}
+
+.loading-text {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  margin-top: 32px;
+}
