@@ -17,7 +17,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route index path="/mls1/control" element={<NoConnection />} />
+        <Route index path="/mls1/control" element={<Apparatus />} />
         <Route path="/mls1/OP" element={<OperatPlanning />} />
         <Route path="/mls1/DP" element={<LongPlanning />} />
       </Routes>
